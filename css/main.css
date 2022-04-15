@@ -1,0 +1,16 @@
+
+.foto .hoverphoto { 
+display: none;
+}
+
+.foto:hover .hoverphoto { 
+    display: initial;
+
+}
+.foto {
+    display:inline-block;
+}
+.foto:hover .magia { 
+    display: none;
+
+}
