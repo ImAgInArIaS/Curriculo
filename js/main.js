@@ -5,9 +5,10 @@
 
 $(document).ready(function(){
         $("#contenedor").fadeIn(2500)
-        
+        $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
 
-});
+});});
 
 
 
