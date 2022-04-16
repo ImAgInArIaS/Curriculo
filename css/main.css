@@ -1,4 +1,8 @@
 
+body{
+    background-image: url("/Curriculo/Imagenes/Fondo.jpg")!important;
+    background-repeat: repeat !important;
+}
 .foto .hoverphoto { 
 display: none;
 }
@@ -7,10 +11,16 @@ display: none;
     display: initial;
 
 }
+
 .foto {
     display:inline-block;
 }
 .foto:hover .magia { 
     display: none;
 
+}
+.magia, .hoverphoto {
+    width: 400px !important;
+    height: 400px !important; 
+    
 }
